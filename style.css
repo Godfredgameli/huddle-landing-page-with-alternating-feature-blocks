@@ -477,6 +477,7 @@ footer .attribution a {
   }
   .main-wrapper .features .all .description img, .main-wrapper .features .all .illustration img {
     height: 80%;
+    width: 80%;
   }
   .main-wrapper .features .flowing-coversations {
     flex-direction: column;
@@ -506,7 +507,7 @@ footer .attribution a {
     line-height: 2;
   }
   .main-wrapper .footer .foot-wrapper .career {
-    margin-top: -100px;
+    margin-top: -60px;
   }
   .main-wrapper .footer .foot-wrapper .socials {
     text-align: center;
