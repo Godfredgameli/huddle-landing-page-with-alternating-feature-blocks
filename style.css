@@ -26,6 +26,10 @@ body, html {
   grid-template-rows: 900px 1500px 100px 500px;
   grid-template-areas: "intro" "features" "build" "footer";
   gap: 100px 0;
+  /*Intoductory header*/
+  /*Beneficts section*/
+  /*Build community section*/
+  /*Footer section*/
 }
 
 .main-wrapper section {
@@ -333,6 +337,7 @@ body, html {
   text-align: right;
 }
 
+/*Responsiveness for various screen sizes*/
 @media screen and (max-width: 1350px) {
   .main-wrapper {
     grid-template-rows: 700px 1500px 100px 500px;

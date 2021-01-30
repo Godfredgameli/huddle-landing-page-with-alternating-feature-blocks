@@ -15,6 +15,7 @@ $open-normal: 400;
 $open-bold: 700;
 
 
+
 *{
     border: 0;
     padding: 0;
@@ -43,6 +44,8 @@ body,html{
     section{
         padding: 0 5%;
     }
+    /*Intoductory header*/
+
     .intro{
         background: url(images/bg-hero-desktop.svg);
         background-repeat: no-repeat;
@@ -119,6 +122,8 @@ body,html{
 
         }
     }
+
+    /*Beneficts section*/
     .features{
         grid-area: features;
         display: grid;
@@ -175,6 +180,7 @@ body,html{
         }
 
     }
+    /*Build community section*/
     .build{
         grid-area: build;
         display: flex;
@@ -216,6 +222,7 @@ body,html{
             }
         }
     }
+    /*Footer section*/
     .footer{
         grid-area: footer;
         display: flex;
@@ -339,6 +346,8 @@ body,html{
         }
     }
 }
+
+/*Responsiveness for various screen sizes*/
 
 @media screen and (max-width:1350px){
     .main-wrapper{
